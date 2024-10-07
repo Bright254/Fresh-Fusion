@@ -116,3 +116,27 @@ a:hover {
 .hero-about .quote {
   font-size: 40px;
 }
+
+.about-container {
+  margin: 5%;
+  padding: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.about-container .vision-image {
+  border: 15px solid #ffffff;
+  border-radius: 10px;
+}
+.about-container .about-text {
+  margin-bottom: 10%;
+}
+.about-container .about-h1 {
+  font-size: 40px;
+}
+.about-container .about-p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+}

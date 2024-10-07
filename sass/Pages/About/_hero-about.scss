@@ -15,3 +15,24 @@
     font-size: 40px;
   }
 }
+
+.about-container{
+  margin: 5%;
+  padding: 5%;
+  @include flex(space-between, center);
+  .vision-image{
+    border: 15px solid $white;
+    border-radius: 10px;
+  }
+  .about-text{
+    margin-bottom: 10%;
+  }
+  .about-h1{
+    font-size: 40px;
+  }
+  .about-p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+  }
+}
