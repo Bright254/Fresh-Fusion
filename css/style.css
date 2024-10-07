@@ -96,3 +96,23 @@ a:hover {
   margin-left: 100px;
   margin-right: 100px;
 }
+
+.about-header {
+  text-align: center;
+  font-size: 40px;
+}
+
+.hero-about {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 40%;
+  box-sizing: border-box;
+}
+.hero-about .quote {
+  font-size: 40px;
+}
