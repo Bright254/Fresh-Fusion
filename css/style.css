@@ -176,17 +176,27 @@ a:hover {
   box-sizing: border-box;
 }
 
-.personal-info {
-  outline: none;
-  border: none;
-  width: 90px;
-  height: 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: nowrap;
-}
-
 .label {
   font-size: 30px;
+  margin-left: 40%;
+}
+
+.box {
+  outline: none;
+  border: none;
+  width: 350px;
+  height: 60px;
+  border-radius: 15px;
+  margin-left: 40%;
+}
+
+.box-submit {
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 60px;
+  margin-left: 45%;
+}
+.box-submit:hover {
+  background-color: #4caf50;
 }
