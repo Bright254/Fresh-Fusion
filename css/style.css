@@ -140,3 +140,53 @@ a:hover {
   text-align: center;
   font-size: 30px;
 }
+
+.feedback-container {
+  margin: 5%;
+  padding: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.feedback-container .juice {
+  width: 600px;
+  height: 600px;
+  border: 15px solid #ffffff;
+  border-radius: 10px;
+}
+
+.contact-hero {
+  font-size: 35px;
+  margin-left: 100px;
+}
+.contact-hero .feedback {
+  font-size: 60px;
+}
+
+.hero-feedback {
+  margin-left: 100px;
+  margin-right: 45%;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.personal-info {
+  outline: none;
+  border: none;
+  width: 90px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.label {
+  font-size: 30px;
+}
