@@ -1,0 +1,12 @@
+@use "./variables" as *;
+body{
+    background-image:linear-gradient(to left,orange,green) ;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    gap: 30px;
+}

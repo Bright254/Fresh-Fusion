@@ -1,0 +1,13 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.hero-header{
+    font-size: 60px;
+    text-align: center;
+    .star{
+        color: brown;
+    }
+}
+.hero-image{
+    margin-left: 20%;
+    gap: 30%;
+}

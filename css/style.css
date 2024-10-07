@@ -1,0 +1,67 @@
+body {
+  background-image: linear-gradient(to left, orange, green);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  gap: 30px;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+a {
+  display: inline-block;
+}
+a:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.nav-left .btn .log-in {
+  outline: none;
+  border: none;
+}
+.nav-left .btn .log-in:hover {
+  background-color: #4caf50;
+}
+.nav-left .btn .sign-up {
+  outline: none;
+  border: none;
+}
+.nav-left .btn .sign-up:hover {
+  background-color: #4caf50;
+}
+
+.hero-header {
+  font-size: 60px;
+  text-align: center;
+}
+.hero-header .star {
+  color: brown;
+}
+
+.hero-image {
+  margin-left: 20%;
+  gap: 30%;
+}
