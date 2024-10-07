@@ -34,7 +34,6 @@
     cursor: pointer;
 }
 .offer{
-    @include flex(space-between,center);
     background-color: white;
     border-radius: 10px;
     padding: 20px;
