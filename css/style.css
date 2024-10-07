@@ -196,6 +196,7 @@ a:hover {
   width: 200px;
   height: 60px;
   margin-left: 45%;
+  cursor: pointer;
 }
 .box-submit:hover {
   background-color: #4caf50;
