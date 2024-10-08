@@ -23,20 +23,36 @@ a{
 .btn{
 .log-in{
     outline: none;
+    border:none;
+    outline: none;
     border: none;
-    &:hover{
-        background-color: $primary-color;
+    width: 100px;
+    height: 40px;
+    margin-left: 45%;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: $primary-color;
     }
 }
 .sign-up{
     outline: none;
     border:none;
-    &:hover{
-        background-color: $primary-color;
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 45%;
+    border-radius: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: $primary-color;
     }
+   
 }
 }
 }
+
 // media queries
 @media (max-width:600px){
 

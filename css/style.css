@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
   background-image: linear-gradient(to left, orange, green);
@@ -44,6 +50,13 @@ a:hover {
 .nav-left .btn .log-in {
   outline: none;
   border: none;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-left: 45%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .nav-left .btn .log-in:hover {
   background-color: #4caf50;
@@ -51,6 +64,13 @@ a:hover {
 .nav-left .btn .sign-up {
   outline: none;
   border: none;
+  outline: none;
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-left: 45%;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .nav-left .btn .sign-up:hover {
   background-color: #4caf50;
