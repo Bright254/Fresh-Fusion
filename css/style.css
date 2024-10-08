@@ -303,6 +303,10 @@ a:hover {
   margin-right: 100px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 nav {
   margin-top: 20px;
   margin-left: 100px;
@@ -342,4 +346,14 @@ a:hover {
 }
 .nav-left .btn .sign-up:hover {
   background-color: #4caf50;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
 }
