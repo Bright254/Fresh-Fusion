@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   background-image: linear-gradient(to left, orange, green);
   color: #ffffff;
+  font-family: "Segoe UI", Verdana, Arial, sans-serif;
 }
 
 a {
