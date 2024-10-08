@@ -4,7 +4,7 @@
     font-size: 60px;
     text-align: center;
     .star{
-        color: brown;
+        color: $secondary-color;
     }
 }
 .hero-image{
@@ -15,6 +15,17 @@
 .no{
     text-align: center;
     font-size: 40px;
+    padding: 20px;
+   
+}
+.pineapple{
+    color: $primary-color;
+}
+.arrow{
+    color: $secondary-color;
+}
+.arrow-2{
+    color: $primary-color;
 }
 .hero-about{
     margin:0 auto;
@@ -28,6 +39,7 @@
     }
    
 }
+
 // media queries
 @media screen and (max-width: 600px) {
     .hero-header {
