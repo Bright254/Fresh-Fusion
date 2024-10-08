@@ -43,9 +43,11 @@ a{
 @media (max-width: 600px)
 {
     nav{
-        margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+        margin: 0 auto;
+        width: 100%;
+}
+.sidebar{
+    display: none;
 }
     
 }

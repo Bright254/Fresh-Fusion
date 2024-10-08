@@ -68,3 +68,26 @@
     align-items: center;
     font-size: 23px;
 }
+
+// media
+
+@media screen(max-width:600px) {
+    .hero, h3{
+        font-size: 30px;
+        padding-top: 200%;
+        margin-left: 45%;
+    }
+    .fruits{
+        gap: 10%;
+        padding-top: 11%;
+        max-width: 100%;
+    }
+    .purchase{
+        border-radius: 10%;
+        height:90%;
+        width:120vw;
+        max-width: 100%;
+       
+       
+}
+}

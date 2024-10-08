@@ -121,9 +121,11 @@ a:hover {
 
 @media (max-width: 600px) {
   nav {
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
   }
 }
 .login-container {
@@ -382,6 +384,7 @@ a:hover {
 .nav-left .btn .log-in {
   outline: none;
   border: none;
+  color: white;
 }
 .nav-left .btn .log-in:hover {
   background-color: #4caf50;
