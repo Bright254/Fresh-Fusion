@@ -163,7 +163,7 @@ a:hover {
   padding: 50px;
 }
 .about-us h2 {
-  color: #ff7f50;
+  color: #ffa500;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
@@ -172,23 +172,50 @@ a:hover {
   color: #333;
 }
 .about-us h1 span {
-  color: #ff6347;
+  color: #ffa500;
 }
 
 .juice-gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin-top: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-top: 30px;
   justify-content: center;
+}
+.juice-gallery .juice-item {
+  position: relative;
 }
 .juice-gallery .juice-item img {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .juice-gallery .juice-item.large {
   grid-column: span 2;
   grid-row: span 2;
+}
+.juice-gallery .juice-item.large img {
+  height: 100%;
+}
+.juice-gallery .juice-item .order-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff6347;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+.juice-gallery .juice-item .order-btn:hover {
+  background-color: #4caf50;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 600px) {
