@@ -14,7 +14,7 @@
   font-size: 29px;
 }
 
-.fruitprice {
+.importance {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,15 +40,6 @@
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
-body, html {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f5f5f5;
 }
 
 .login-container {
@@ -114,15 +105,6 @@ a:hover {
   display: inline-block;
 }
 
-body, html {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f5f5f5;
-}
-
 .signup-container {
   display: flex;
   justify-content: center;
@@ -169,6 +151,8 @@ button {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  width: 120px;
+  margin-left: 190px;
 }
 
 button:hover {
@@ -184,4 +168,96 @@ a {
 a:hover {
   background-color: #4caf50;
   display: inline-block;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+a {
+  display: inline-block;
+}
+a:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.nav-left .btn .log-in {
+  outline: none;
+  border: none;
+}
+.nav-left .btn .log-in:hover {
+  background-color: #4caf50;
+}
+.nav-left .btn .sign-up {
+  outline: none;
+  border: none;
+}
+.nav-left .btn .sign-up:hover {
+  background-color: #4caf50;
+}
+
+nav {
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+nav .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+a {
+  display: inline-block;
+}
+a:hover {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.nav-left .btn .log-in {
+  outline: none;
+  border: none;
+}
+.nav-left .btn .log-in:hover {
+  background-color: #4caf50;
+}
+.nav-left .btn .sign-up {
+  outline: none;
+  border: none;
+}
+.nav-left .btn .sign-up:hover {
+  background-color: #4caf50;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
 }
