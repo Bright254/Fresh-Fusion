@@ -3,6 +3,8 @@
 .about-header {
   text-align: center;
   font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 .hero-about {
   margin: 0 auto;
@@ -13,6 +15,9 @@
   box-sizing: border-box;
   .quote {
     font-size: 40px;
+  }
+   @media (max-width: 768px) {
+    font-size: 30px;
   }
 }
 
