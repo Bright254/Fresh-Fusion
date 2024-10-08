@@ -1,45 +1,117 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
-.hero-header{
-    font-size: 60px;
-    .star{
-        color: $secondary-color;
-    }
-}
-.hero-paragraph{
-    font-size: 20px;
-}
-.hero-image{
-    margin-left: 28%;
-    
-    
-}
-.no{
-    text-align: center;
-    font-size: 40px;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
-   
 }
-.pineapple{
-    color: $primary-color;
-}
-.arrow{
-    color: $secondary-color;
-}
-.arrow-2{
-    color: $primary-color;
-}
-.hero-about{
-    margin:0 auto;
-    text-align: center;
-    font-size: 30px;
+
+.hero-section {
     @include flex(space-between,center);
-    width: 40%;
-    box-sizing: border-box;
-    .quote{
-        font-size: 40px;
+    align-items: center;
+    background-color: #fff7e6;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .text-content {
+        max-width: 50%;
+            margin-bottom: 200px;
+        .taste{
+            font-size: 60px;
+        }
+
+        h1 {
+            font-size: 40px;
+            color: #333;
+
+            span {
+                color: #e67e22;
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #777;
+            margin-top: 10px;
+        }
+
+        .explore-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff7f50;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                background-color: $primary-color;
+            }
+        }
     }
+
+    .image-content {
+        .main-image {
+            max-width: 500px;
+            border-radius: 10px;
+           
+        }
+    }
+}
+
+.juice-options {
+    @include flex(space-between,center);
+    margin-top: 30px;
+
+    img {
+        width: 150px;
+        height: auto;
+        border-radius: 10px;
+
+        
+    }
+}
    
+
+.about-us {
+    text-align: center;
+    padding: 50px;
+
+    h2 {
+        color: #ff7f50;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #333;
+
+        span {
+            color: #ff6347;
+        }
+    }
+}
+
+.juice-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+    justify-content: center;
+
+    .juice-item {
+        img {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        &.large {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+    }
 }
 
 // media queries

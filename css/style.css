@@ -91,52 +91,104 @@ a:hover {
     display: inline-block;
   }
 }
-.hero-header {
-  font-size: 60px;
-}
-.hero-header .star {
-  color: #ffa500;
-}
-
-.hero-paragraph {
-  font-size: 20px;
-}
-
-.hero-image {
-  margin-left: 28%;
-}
-
-.no {
-  text-align: center;
-  font-size: 40px;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-.pineapple {
-  color: #4caf50;
-}
-
-.arrow {
-  color: #ffa500;
-}
-
-.arrow-2 {
-  color: #4caf50;
-}
-
-.hero-about {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 30px;
+.hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  width: 40%;
-  box-sizing: border-box;
+  align-items: center;
+  background-color: #fff7e6;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.hero-about .quote {
+.hero-section .text-content {
+  max-width: 50%;
+  margin-bottom: 200px;
+}
+.hero-section .text-content .taste {
+  font-size: 60px;
+}
+.hero-section .text-content h1 {
   font-size: 40px;
+  color: #333;
+}
+.hero-section .text-content h1 span {
+  color: #e67e22;
+}
+.hero-section .text-content p {
+  font-size: 1.2rem;
+  color: #777;
+  margin-top: 10px;
+}
+.hero-section .text-content .explore-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero-section .text-content .explore-btn:hover {
+  background-color: #4caf50;
+}
+.hero-section .image-content .main-image {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.juice-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+}
+.juice-options img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-us {
+  text-align: center;
+  padding: 50px;
+}
+.about-us h2 {
+  color: #ff7f50;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.about-us h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+.about-us h1 span {
+  color: #ff6347;
+}
+
+.juice-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-top: 40px;
+  justify-content: center;
+}
+.juice-gallery .juice-item img {
+  width: 100%;
+  border-radius: 15px;
+}
+.juice-gallery .juice-item.large {
+  grid-column: span 2;
+  grid-row: span 2;
 }
 
 @media screen and (max-width: 600px) {
