@@ -1,7 +1,5 @@
 .hero {
   align-items: center;
-  background: url("/images/back.jpg") no-repeat center center/cover;
-  height: 78vh;
 }
 .hero h3 {
   font-size: 40px;
@@ -14,12 +12,14 @@
   font-size: 29px;
 }
 
-.importance {
+.fruits {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
   align-items: center;
+  gap: 10px;
+  padding-top: 11px;
 }
 
 .purchase {
@@ -40,6 +40,16 @@
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.juices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  padding-top: 11px;
 }
 
 nav {
@@ -92,6 +102,7 @@ a:hover {
   background-image: url("/images/bg2.jpg");
   background-size: cover;
   background-position: center;
+  margin-left: 30%;
 }
 
 .login-box {
@@ -155,6 +166,7 @@ a:hover {
   background-image: url("/images/bg2.jpg");
   background-size: cover;
   background-position: center;
+  margin-left: 30%;
 }
 
 .signup-box {
@@ -323,6 +335,7 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
+  gap: 20px;
 }
 
 a {
@@ -346,6 +359,16 @@ a:hover {
 }
 .nav-left .btn .sign-up:hover {
   background-color: #4caf50;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .footer-section {
