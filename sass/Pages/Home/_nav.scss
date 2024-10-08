@@ -29,7 +29,7 @@ a{
 }
 
 // media queries 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     .nav-center{
        display: none;
     }
