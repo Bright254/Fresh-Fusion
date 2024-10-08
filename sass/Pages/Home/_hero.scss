@@ -157,3 +157,59 @@ h1 {
         font-size: 20px;
     }
   }
+  // Media Queries
+@media screen and (max-width: 601px) {
+    .hero-section {
+        padding: 40px; 
+
+        .text-content {
+            max-width: 50%; 
+            margin-bottom: 200px; 
+            .taste {
+                font-size: 60px; 
+            }
+            h1 {
+                font-size: 40px; 
+            }
+        }
+
+        .image-content {
+            .main-image {
+                max-width: 600px;
+                
+            }
+        }
+    }
+
+    .juice-options {
+        img {
+            width: 150px; 
+        }
+    }
+
+    .hero-about {
+        font-size: 30px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .juice-menu {
+        display: grid; 
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 20px;
+    }
+
+    .juice-item {
+        width: auto; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-section {
+        padding: 80px; 
+    }
+
+    h1 {
+        font-size: 2rem; 
+    }
+}

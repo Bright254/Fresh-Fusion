@@ -76,4 +76,27 @@ iframe {
   height: 450px; 
   border: 0; 
 }
+@media (max-width: 768px) {
+  .feedback-container {
+      padding: 10px; 
+  }
+
+  .contact-hero {
+      font-size: 1.5em; 
+  }
+
+  .hero-feedback {
+      font-size: 1em; 
+  }
+
+  .box-submit {
+      padding: 8px;
+      font-size: 1em; 
+  }
+
+  .map-container {
+      width: 90%;
+      margin: 0 auto; 
+  }
+}
 

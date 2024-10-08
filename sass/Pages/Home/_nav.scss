@@ -4,6 +4,9 @@ nav{
     margin-top: 10px;
     margin-left: 80px;
     margin-right: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
    .nav{
     @include flex(space-between,center)
    }
@@ -37,21 +40,36 @@ a{
     }
 }
 
-// media queries 
-@media screen and (max-width: 600px){
-    .nav-center{
-       display: none;
+// Media queries 
+@media screen and (max-width: 600px) {
+    .nav-center {
+        display: none; 
     }
-    .nav-left{
-        @include flex(space-between,center);
-    .signup-login{
-        display:inline-block;
-       }
+
+    .nav-left {
+        @include flex(space-between, center); 
     }
-    .nav-left{
-        @include flex(space-between,center);
-    .fa-bars{
-        display:inline-block;
-       }
+
+    .signup-login {
+        display: inline-block; 
     }
-}  
+
+    .fa-bars {
+        display: inline-block; 
+        cursor: pointer; 
+    }
+    
+   
+    .nav-center.active {
+        display: flex; 
+        flex-direction: column; 
+        gap: 10px; 
+        width: 100%; 
+        text-align: center; 
+        background-color: $white;
+        position: absolute;
+        top: 50px; 
+        left: 0; 
+        z-index: 999; 
+    }
+}
