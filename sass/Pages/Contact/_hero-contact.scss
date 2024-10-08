@@ -9,28 +9,22 @@
     height: 600px;
     border: 15px solid $white;
     border-radius: 10px;
-  @media (max-width: 100%){
-    .juice {
-      max-width: 100%;
-      height: auto;
-      @media screen and (max-width: 768px) {
-        max-width: 100%;
-        height: auto; 
+    @media screen and (max-width: 768px) {
+      display: none;
       }
     }
   }
-  }
-}
+
 .contact-hero {
   font-size: 35px;
   margin-left: 100px;
   .feedback {
     font-size: 60px;
   }
-  @media screen and (max-width: 768px) { 
-    margin-left: 0; 
-    text-align: center; 
-    font-size: 28px; 
+  @media screen and (max-width: 768px) {
+    margin-left: 0;
+    text-align: center;
+    font-size: 28px;
   }
 }
 .hero-feedback {
@@ -40,17 +34,17 @@
   @include flex(space-between, center);
   width: 45%;
   box-sizing: border-box;
-  @media (max-width: 768px) { 
+  @media (max-width: 768px) {
     margin-left: 0;
     margin-right: 0;
-    width: 100%; 
-    font-size: 24px; 
+    width: 100%;
+    font-size: 24px;
   }
 }
 .label {
   font-size: 30px;
   margin-left: 40%;
-  @media screen and (max-width: 768px) { 
+  @media screen and (max-width: 768px) {
     margin-left: 0;
     text-align: center;
   }
@@ -62,9 +56,9 @@
   height: 60px;
   border-radius: 15px;
   margin-left: 40%;
-  @media screen and (max-width: 768px) { 
+  @media screen and (max-width: 768px) {
     width: 90%;
-    margin-left: 5%; 
+    margin-left: 5%;
   }
 }
 .box-submit {
@@ -80,7 +74,8 @@
     background-color: $primary-color;
   }
   @media screen and (max-width: 768px) {
-    margin-left: 5%;
-    width: 90%; 
-  }
+    margin-left: 22%;
+    width: 50%;
 }
+}
+

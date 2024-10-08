@@ -27,6 +27,12 @@ a{
         background-color: $primary-color;
       } 
 }
+.nav-left{
+    @include flex(space-between,center);
+    .fa-bars{
+      display:none;
+    }
+}
 
 // media queries 
 @media screen and (max-width: 600px){
@@ -36,6 +42,12 @@ a{
     .nav-left{
         @include flex(space-between,center);
     .signup-login{
+        display:inline-block;
+       }
+    }
+    .nav-left{
+        @include flex(space-between,center);
+    .fa-bars{
         display:inline-block;
        }
     }

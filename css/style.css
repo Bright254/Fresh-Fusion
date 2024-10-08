@@ -56,6 +56,16 @@ a:hover {
   background-color: #4caf50;
 }
 
+.nav-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.nav-left .fa-bars {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .nav-center {
     display: none;
@@ -67,6 +77,15 @@ a:hover {
     flex-wrap: nowrap;
   }
   .nav-left .signup-login {
+    display: inline-block;
+  }
+  .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .nav-left .fa-bars {
     display: inline-block;
   }
 }
@@ -108,6 +127,7 @@ a:hover {
   }
   .hero-image {
     width: 10%;
+    display: none;
   }
   .hero-about {
     font-size: 20px;
@@ -221,16 +241,9 @@ a:hover {
   border: 15px solid #ffffff;
   border-radius: 10px;
 }
-@media (max-width: 100%) {
-  .feedback-container .juice .juice {
-    max-width: 100%;
-    height: auto;
-  }
-}
-@media screen and (max-width: 100%) and (max-width: 768px) {
-  .feedback-container .juice .juice {
-    max-width: 100%;
-    height: auto;
+@media screen and (max-width: 768px) {
+  .feedback-container .juice {
+    display: none;
   }
 }
 
@@ -310,7 +323,7 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   .box-submit {
-    margin-left: 5%;
-    width: 90%;
+    margin-left: 22%;
+    width: 50%;
   }
 }
