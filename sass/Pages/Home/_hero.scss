@@ -10,6 +10,7 @@
 .hero-image{
     margin-left: 28%;
     
+    
 }
 .no{
     text-align: center;
@@ -27,3 +28,16 @@
     }
    
 }
+// media queries
+@media (max-width: 600px) {
+    .hero-header {
+      font-size: 40px;
+    }
+  
+    .hero-image {
+      width: 10%; 
+    }
+    .hero-about{
+        font-size: 20px;
+    }
+  }

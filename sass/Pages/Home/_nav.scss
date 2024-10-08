@@ -53,7 +53,15 @@ a{
 }
 }
 
-// media queries
-@media (max-width:600px){
-
-}
+// media queries 
+@media (max-width: 600px){
+    .nav-center{
+       display: none;
+    }
+    .nav-left{
+        @include flex(space-between,center);
+    .signup-login{
+        display:inline-block;
+       }
+    }
+}  
