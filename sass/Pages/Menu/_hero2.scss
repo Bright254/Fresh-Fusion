@@ -37,3 +37,15 @@ a{
 }
 }
 }
+
+// media queries
+
+@media (max-width: 600px)
+{
+    nav{
+        margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+    
+}

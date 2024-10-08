@@ -73,6 +73,11 @@
   padding-top: 27px;
 }
 
+.htext {
+  align-items: center;
+  font-size: 23px;
+}
+
 nav {
   margin-top: 20px;
   margin-left: 100px;
@@ -114,6 +119,13 @@ a:hover {
   background-color: #4caf50;
 }
 
+@media (max-width: 600px) {
+  nav {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
 .login-container {
   display: flex;
   justify-content: center;
