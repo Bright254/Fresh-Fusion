@@ -182,8 +182,21 @@ a:hover {
   border: 15px solid #ffffff;
   border-radius: 10px;
 }
+@media (max-width: 768px) {
+  .about-container .vision-image {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
 .about-container .about-text {
   margin-bottom: 10%;
+}
+@media (max-width: 768px) {
+  .about-container .about-text {
+    margin-bottom: 5%;
+    padding-left: 0;
+    text-align: center;
+  }
 }
 .about-container .about-h1 {
   font-size: 40px;

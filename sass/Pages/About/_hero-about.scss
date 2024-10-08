@@ -39,9 +39,18 @@
   .vision-image{
     border: 15px solid $white;
     border-radius: 10px;
+    @media (max-width: 768px) {
+      width: 80%;
+      margin-bottom: 20px;
+    }
   }
   .about-text{
     margin-bottom: 10%;
+    @media (max-width: 768px) {
+      margin-bottom: 5%;
+      padding-left: 0;
+      text-align: center;
+    }
   }
   .about-h1{
     font-size: 40px;
