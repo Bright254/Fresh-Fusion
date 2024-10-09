@@ -129,7 +129,7 @@ a:hover {
   color: #333;
 }
 .hero-section .text-content h1 span {
-  color: #e67e22;
+  color: #ff6701;
 }
 .hero-section .text-content p {
   font-size: 1.2rem;
@@ -140,7 +140,7 @@ a:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #ff7f50;
+  background-color: #ff6701;
   color: #fff;
   border-radius: 5px;
   text-decoration: none;
@@ -184,7 +184,7 @@ a:hover {
   box-sizing: border-box;
 }
 .hero-about .about-h1 {
-  color: #ffa500;
+  color: #FF6701;
 }
 .hero-about .quote {
   font-size: 40px;
@@ -202,7 +202,7 @@ img {
 }
 
 h1 {
-  color: #ffa500;
+  color: #FF6701;
   font-size: 2rem;
   margin-bottom: 20px;
 }
@@ -240,7 +240,7 @@ h1 {
 
 .juice-item span {
   font-size: 1.2rem;
-  color: #e67e22;
+  color: #FF6701;
 }
 
 .juice-item:hover {
@@ -251,11 +251,15 @@ h1 {
   .hero-header {
     font-size: 40px;
   }
-  .hero-image {
+  .hero-header .hero-header {
+    font-size: 4440px0px40px0px;
+    font-size: 40px;
+  }
+  .hero-header .hero-image {
     width: 10%;
     display: none;
   }
-  .hero-about {
+  .hero-header .hero-about {
     font-size: 20px;
   }
 }
@@ -408,13 +412,21 @@ h1 {
   background-color: #fff7e6;
 }
 
+.feedback-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+}
+
 .contact-hero {
   font-size: 2em;
   color: #333;
 }
 
 .feedback {
-  color: orange;
+  color: #FF6701;
 }
 
 .hero-feedback {
@@ -453,7 +465,7 @@ h1 {
 .box-submit {
   margin-top: 15px;
   padding: 10px;
-  background-color: orange;
+  background-color: #FF6701;
   border: none;
   color: white;
   cursor: pointer;

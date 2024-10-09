@@ -7,6 +7,10 @@
   gap: 20px;
   background-color: #fff7e6;
 }
+.feedback-box{
+  @include flex(space-between,center);
+  margin-left:10%;
+}
 
 .contact-hero {
   font-size: 2em;
@@ -14,7 +18,7 @@
 }
 
 .feedback {
-  color: orange;
+  color: $secondary-color;
 }
 
 .hero-feedback {
@@ -50,7 +54,7 @@
 .box-submit {
   margin-top: 15px;
   padding: 10px;
-  background-color: orange;
+  background-color: $secondary-color;
   border: none;
   color: white;
   cursor: pointer;
