@@ -130,14 +130,14 @@ a:hover {
 }
 .hero-section .text-content h1 {
   font-size: 40px;
-  color: #333;
+  color: black;
 }
 .hero-section .text-content h1 span {
-  color: #ff6701;
+  color: #FF6701;
 }
 .hero-section .text-content p {
   font-size: 1.2rem;
-  color: #777;
+  color: #333;
   margin-top: 10px;
 }
 .hero-section .text-content .discover-btn {
@@ -155,9 +155,15 @@ a:hover {
   color: black;
 }
 .hero-section .image-content .main-image {
-  max-width: 500px;
-  border-radius: 10px;
-  width: 160%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  border: 10px solid white;
+  max-width: 400px;
+  border-radius: 500px;
+  width: 200%;
+  padding-right: 10%;
 }
 
 .about-image {

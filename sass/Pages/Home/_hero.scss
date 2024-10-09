@@ -23,16 +23,16 @@
 
     h1 {
       font-size: 40px;
-      color: #333;
+      color: black;
 
       span {
-        color: #ff6701;
+        color: $secondary-color;
       }
     }
 
     p {
       font-size: 1.2rem;
-      color: #777;
+      color: #333;
       margin-top: 10px;
     }
 
@@ -53,9 +53,13 @@
   }
   .image-content {
     .main-image {
-      max-width: 500px;
-      border-radius: 10px;
-      width: 160%;
+      @include flex(space-between, center);
+      border: 10px solid white;
+      max-width: 400px;
+      border-radius: 500px;
+      width: 200%;
+      padding-right: 10%;
+      
       
     }
   }
