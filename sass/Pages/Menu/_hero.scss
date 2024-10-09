@@ -69,25 +69,39 @@
     font-size: 23px;
 }
 
-// media
-
-@media screen(max-width:600px) {
-    .hero, h3{
-        font-size: 30px;
-        padding-top: 200%;
-        margin-left: 45%;
-    }
-    .fruits{
-        gap: 10%;
-        padding-top: 11%;
-        max-width: 100%;
-    }
-    .purchase{
-        border-radius: 10%;
-        height:90%;
-        width:120vw;
-        max-width: 100%;
-       
-       
+// Media Queries
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .nav ul {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  
+  .hero h3 {
+    font-size: 32px;
+    margin: 0 auto;
+  }
+  
+  .fruits, .juices {
+    flex-direction: column;
+  }
+  
+  .offer {
+    width: 100%;
+  }
 }
+
+@media (max-width: 480px) {
+  .hero h3 {
+    font-size: 24px;
+  }
+  
+  .purchase {
+    width: 100%;
+    font-size: 14px;
+  }
 }

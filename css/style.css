@@ -78,6 +78,24 @@
   font-size: 23px;
 }
 
+@media (max-width: 600px) {
+  .hero, h3 {
+    font-size: 30px;
+    padding-top: 200%;
+    margin-left: 45%;
+  }
+  .fruits {
+    gap: 10%;
+    padding-top: 11%;
+    max-width: 100%;
+  }
+  .purchase {
+    border-radius: 10%;
+    height: 90%;
+    width: 120vw;
+    max-width: 100%;
+  }
+}
 nav {
   margin-top: 20px;
   margin-left: 100px;
@@ -299,6 +317,11 @@ a:hover {
   background-color: #4caf50;
 }
 
+@media (max-width: 800px) {
+  p {
+    font-size: 20px;
+  }
+}
 nav {
   margin-top: 20px;
   margin-left: 100px;

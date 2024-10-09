@@ -10,6 +10,7 @@ nav{
    }
    ul{
     @include flex(space-between,center)
+
    }
 }
 a{
@@ -36,18 +37,4 @@ a{
     }
 }
 }
-}
-
-// media queries
-
-@media (max-width: 600px)
-{
-    nav{
-        margin: 0 auto;
-        width: 100%;
-}
-.sidebar{
-    display: none;
-}
-    
 }
