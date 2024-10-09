@@ -102,23 +102,23 @@ a{
 }
 
 
-/* Media Queries for responsive design */
+/* Media Queries  */
 @media (max-width: 800px) {
     .signup-container {
-        padding: 0 10px; // Increase padding for smaller screens
+        padding: 0 10px; 
     }
 
     .signup-box {
-        width: 100%; // Use the full width on smaller screens
+        width: 100%; 
         padding: 20px;
     }
 
     h2 {
-        font-size: 1.5em; // Scale down font size for smaller screens
+        font-size: 1.5em; 
     }
 
     input, button {
-        font-size: 0.9em; // Scale form elements for smaller screens
+        font-size: 0.9em; 
     }
 }
 
@@ -130,7 +130,7 @@ a{
     .signup-box {
         padding: 15px;
         width: 100%;
-        max-width: 100%; // Remove max width for very small screens
+        max-width: 100%; 
     }
 
     input, button {

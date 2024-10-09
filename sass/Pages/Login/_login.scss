@@ -64,7 +64,41 @@ a:hover{
         }
 
 
-
+        /* Media Queries */
+        @media (max-width: 800px) {
+            .login-container {
+                padding: 0 10px;  
+            }
+        
+            .login-box {
+                width: 100%;  ns
+                padding: 20px;
+            }
+        
+            h2 {
+                font-size: 1.5em; 
+            }
+        
+            input, button {
+                font-size: 0.9em;  
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .login-container {
+                padding: 0 10px;
+            }
+        
+            .login-box {
+                padding: 15px;
+                width: 100%;
+                max-width: 100%; 
+            }
+        
+            input, button {
+                font-size: 0.9em;
+            }
+        }
 
 
 

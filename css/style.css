@@ -211,6 +211,35 @@ a:hover {
   display: inline-block;
 }
 
+/* Media Queries for responsive design */
+@media (max-width: 800px) {
+  .login-container {
+    padding: 0 10px;
+  }
+  .login-box {
+    width: 100%;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  input, button {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 600px) {
+  .login-container {
+    padding: 0 10px;
+  }
+  .login-box {
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  input, button {
+    font-size: 0.9em;
+  }
+}
 .signup-container {
   display: flex;
   justify-content: center;
@@ -318,7 +347,7 @@ a:hover {
   background-color: #4caf50;
 }
 
-/* Media Queries for responsive design */
+/* Media Queries  */
 @media (max-width: 800px) {
   .signup-container {
     padding: 0 10px;
