@@ -26,7 +26,7 @@ nav {
   margin-top: 10px;
   margin-left: 80px;
   margin-right: 80px;
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 1000;
 }
@@ -53,6 +53,7 @@ a:hover {
 }
 
 .btn {
+  font-weight: bold;
   border-radius: 10px;
   padding: 10px;
   background-color: #ff6701;
@@ -144,13 +145,14 @@ a:hover {
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #ff6701;
-  color: black;
+  color: #ffffff;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
 }
 .hero-section .text-content .discover-btn:hover {
   background-color: #4caf50;
+  color: black;
 }
 .hero-section .image-content .main-image {
   max-width: 500px;

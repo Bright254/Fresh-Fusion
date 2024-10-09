@@ -41,12 +41,13 @@
       margin-top: 20px;
       padding: 10px 20px;
       background-color: #ff6701;
-      color:black;
+      color:$white;
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
       &:hover {
         background-color: $primary-color;
+        color: black;
       }
     }
   }
