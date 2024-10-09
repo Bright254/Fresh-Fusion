@@ -58,7 +58,9 @@
         }
     }
 }
-
+.about-image{
+    padding-top: 20%;
+}
 .juice-options {
     @include flex(space-between,center);
     margin-top: 30px;

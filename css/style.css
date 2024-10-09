@@ -155,6 +155,10 @@ a:hover {
   border-radius: 10px;
 }
 
+.about-image {
+  padding-top: 20%;
+}
+
 .juice-options {
   display: flex;
   justify-content: space-between;
