@@ -1,11 +1,7 @@
 @use"./utilities/base";
-@use "./utilities/variables";
-@use "../sass/Pages/Menu/hero";
-@use "../sass/Pages/Menu/hero2";
-@use "../sass/Pages/Login/login";
-@use "../sass/Pages/Sign-up/sign-up";
-@use "../sass/Pages/Sign-up/nav";
-@use "../sass/Pages/Sign-up/signup-footer";
-@use "../sass/Pages/Login/login-nav";
-@use "../sass/Pages/Login/footerlogin";
-@use "../sass/Pages/Menu/footermenu.scss";
+@use "./Pages/Home/nav";
+@use "./Pages/Home/hero";
+@use "./Pages/Home/footer";
+@use "./Pages/About/hero-about";
+@use "./Pages/Contact/hero-contact";
+
