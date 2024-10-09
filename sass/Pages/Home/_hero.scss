@@ -53,14 +53,13 @@
   }
   .image-content {
     .main-image {
+      background-color: $light-grey;
       @include flex(space-between, center);
-      border: 10px solid white;
+      border: 10px solid $light-grey;
       max-width: 400px;
       border-radius: 500px;
       width: 200%;
       padding-right: 10%;
-      
-      
     }
   }
 }

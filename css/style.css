@@ -155,11 +155,12 @@ a:hover {
   color: black;
 }
 .hero-section .image-content .main-image {
+  background-color: #F4F7FB;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: nowrap;
-  border: 10px solid white;
+  border: 10px solid #F4F7FB;
   max-width: 400px;
   border-radius: 500px;
   width: 200%;
@@ -393,7 +394,7 @@ h1 {
   }
 }
 .about-container .vision-image {
-  border: 15px solid lightgray;
+  border: 15px solid #F4F7FB;
   border-radius: 10px;
 }
 @media screen and (max-width: 768px) {
@@ -454,7 +455,7 @@ h1 {
   flex-wrap: nowrap;
   margin-top: 10px;
   font-size: 1.1em;
-  color: #666;
+  color: #333;
 }
 
 .personal-info {
