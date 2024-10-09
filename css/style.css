@@ -48,8 +48,7 @@ a {
   display: inline-block;
 }
 a:hover {
-  background-color: #4caf50;
-  color: #ffffff;
+  color: #4caf50;
 }
 
 .btn {
@@ -153,6 +152,7 @@ a:hover {
 .hero-section .image-content .main-image {
   max-width: 500px;
   border-radius: 10px;
+  width: 160%;
 }
 
 .about-image {
