@@ -156,6 +156,7 @@
     }
   
     .juices, .fruits {
+        grid-template-columns: repeat(auto-fill, min-max 150);
       padding: 15px;
     }
   

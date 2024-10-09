@@ -107,6 +107,76 @@
     font-size: 14px;
   }
 }
+/* Media Queries */
+@media (max-width: 900px) {
+  .hero h3 {
+    font-size: 32px;
+    margin-left: 0;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .fruits, .juices {
+    flex-direction: column;
+    gap: 20px;
+    align-items: stretch;
+    padding-top: 20px;
+  }
+  .purchase {
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+    height: 70px;
+  }
+  .offer {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .hero h3 {
+    font-size: 28px;
+    padding-top: 100px;
+  }
+  .herotext {
+    font-size: 24px;
+  }
+  .purchase {
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .image {
+    padding-top: 15px;
+    padding: 15px;
+  }
+  .juices, .fruits {
+    grid-template-columns: repeat(auto-fill, min-max 150);
+    padding: 15px;
+  }
+  .offer {
+    padding: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .hero h3 {
+    font-size: 24px;
+    padding-top: 80px;
+  }
+  .herotext {
+    font-size: 18px;
+  }
+  .purchase {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+  }
+  .image {
+    padding-top: 10px;
+    padding: 10px;
+  }
+  .offer {
+    padding: 10px;
+  }
+}
 nav {
   margin-top: 20px;
   margin-left: 100px;
@@ -211,7 +281,7 @@ a:hover {
   display: inline-block;
 }
 
-/* Media Queries for responsive design */
+/* Media Queries */
 @media (max-width: 800px) {
   .login-container {
     padding: 0 10px;
@@ -227,7 +297,7 @@ a:hover {
     font-size: 0.9em;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .login-container {
     padding: 0 10px;
   }
