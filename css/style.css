@@ -266,6 +266,9 @@ h1 {
 @media screen and (max-width: 601px) {
   .hero-section {
     padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
   }
   .hero-section .text-content {
     max-width: 50%;
@@ -282,6 +285,9 @@ h1 {
   }
   .juice-options img {
     width: 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
   }
   .hero-about {
     font-size: 30px;
