@@ -1,5 +1,8 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
+.about-section{
+  background-color: #fff7e6;
+}
 .about-header {
   text-align: center;
   font-size: 40px;

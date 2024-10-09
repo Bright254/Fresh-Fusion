@@ -314,6 +314,10 @@ h1 {
   }
 }
 
+.about-section {
+  background-color: #fff7e6;
+}
+
 .about-header {
   text-align: center;
   font-size: 40px;
