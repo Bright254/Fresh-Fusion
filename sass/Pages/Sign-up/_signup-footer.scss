@@ -1,0 +1,43 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.footer-section{
+    @include flex(space-between,center);
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ul{
+    list-style-type: none;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    .signup-container {
+      padding: 10px;
+    }
+  
+    .signup-box {
+      padding: 20px;
+    }
+  
+    p {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .signup-container {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+  
+    .signup-box {
+      padding: 15px;
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    input, button {
+      font-size: 0.9em;
+    }
+  }
