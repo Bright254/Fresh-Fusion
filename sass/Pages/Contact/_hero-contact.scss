@@ -81,7 +81,8 @@ iframe {
   height: 450px;
   border: 0;
 }
-@media (max-width: 768px) {
+// media queries
+@media screen and (max-width: 768px) {
   .feedback-container {
     padding: 10px;
   }

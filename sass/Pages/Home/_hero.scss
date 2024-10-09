@@ -41,7 +41,7 @@
       margin-top: 20px;
       padding: 10px 20px;
       background-color: #ff6701;
-      color:$white;
+      color: $white;
       border-radius: 5px;
       text-decoration: none;
       font-weight: bold;
@@ -53,13 +53,12 @@
   }
   .image-content {
     .main-image {
-      background-color: $light-grey;
       @include flex(space-between, center);
       border: 10px solid $light-grey;
-      max-width: 400px;
+      max-width: 450px;
       border-radius: 500px;
       width: 200%;
-      padding-right: 10%;
+      
     }
   }
 }
@@ -148,20 +147,22 @@ h1 {
 }
 // media queries
 @media screen and (max-width: 600px) {
-  .hero-header {    font-size: 40px;  .hero-header {    font-size: 4440px0px40px0px;
-
-
+  .hero-header {
     font-size: 40px;
-  }
+    .hero-header {
+      font-size: 4440px0px40px0px;
 
-  .hero-image {
-    width: 10%;
-    display: none;
+      font-size: 40px;
+    }
+
+    .hero-image {
+      width: 10%;
+      display: none;
+    }
+    .hero-about {
+      font-size: 20px;
+    }
   }
-  .hero-about {
-    font-size: 20px;
-  }
-}
 }
 // Media Queries
 @media screen and (max-width: 601px) {
