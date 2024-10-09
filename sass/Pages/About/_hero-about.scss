@@ -1,0 +1,66 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.about-section{
+  background-color: #fff7e6;
+}
+.about-header {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.hero-about {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  @include flex(space-between, center);
+  width: 40%;
+  box-sizing: border-box;
+  @media (max-width: 768px) {
+    font-size: 25px;
+    width: 80%;
+  }
+  .quote {
+    font-size: 40px;
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
+  }
+  
+}
+
+.about-container{
+  margin: 5%;
+  padding: 5%;
+  @include flex(space-between, center);
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+  .vision-image{
+    border: 15px solid $light-grey;
+    border-radius: 10px;
+    @media screen and (max-width: 768px) {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  .about-text{
+    margin-bottom: 10%;
+    @media screen and (max-width: 768px) {
+      margin-bottom: 5%;
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  .about-h1{
+    font-size: 40px;
+  }
+  .about-p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+  }
+}

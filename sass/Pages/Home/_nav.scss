@@ -1,0 +1,80 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+nav{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    position: static;
+    top: 0;
+    z-index: 1000;
+   .nav{
+    @include flex(space-between,center)
+   }
+   ul{
+    @include flex(space-between,center);
+    gap: 100px;
+    font-size: 20px;
+    
+   }
+}
+a{
+    
+    display: inline-block;
+    &:hover{
+        color: $primary-color;
+        
+    } 
+}
+.btn{
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ff6701;
+    color: $white;
+    &:hover {
+        background-color: $primary-color;
+        color: black;
+    
+      } 
+}
+.nav-left{
+    @include flex(space-between,center);
+    .fa-bars{
+      display:none;
+    }
+}
+
+// Media queries 
+@media screen and (max-width: 600px) {
+    .nav-center {
+        display: none; 
+    }
+
+    .nav-left {
+        @include flex(space-between, center); 
+    }
+
+    .signup-login {
+        display: inline-block; 
+    }
+
+    .fa-bars {
+        display: inline-block; 
+        cursor: pointer; 
+    }
+    
+   
+    .nav-center.active {
+        display: flex; 
+        flex-direction: column; 
+        gap: 10px; 
+        width: 100%; 
+        text-align: center; 
+        background-color: $white;
+        position: absolute;
+        top: 50px; 
+        left: 0; 
+        z-index: 999; 
+    }
+}

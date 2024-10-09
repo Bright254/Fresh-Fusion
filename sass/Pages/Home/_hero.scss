@@ -1,0 +1,227 @@
+@use "../../utilities/variables" as *;
+@use "../../utilities/mixins" as *;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-section {
+  @include flex(space-between, center);
+  align-items: center;
+  background-color: #fff7e6;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .text-content {
+    max-width: 50%;
+    margin-bottom: 200px;
+    .taste {
+      font-size: 60px;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: black;
+
+      span {
+        color: $secondary-color;
+      }
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .discover-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #ff6701;
+      color: $white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      &:hover {
+        background-color: $primary-color;
+        color: black;
+      }
+    }
+  }
+  .image-content {
+    .main-image {
+      @include flex(space-between, center);
+      border: 10px solid $light-grey;
+      max-width: 450px;
+      border-radius: 500px;
+      width: 200%;
+      
+    }
+  }
+}
+.about-image {
+  padding-top: 20%;
+}
+.juice-options {
+  @include flex(space-between, center);
+  margin-top: 30px;
+
+  img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+.hero-about {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  @include flex(space-between, center);
+  width: 100%;
+  box-sizing: border-box;
+  .about-h1 {
+    color: $secondary-color;
+  }
+  .quote {
+    font-size: 40px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.menu-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #fff7e6;
+}
+
+h1 {
+  color: $secondary-color;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.juice-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 20%;
+}
+
+.juice-item {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 150px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.juice-item img {
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.juice-item p {
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.juice-item span {
+  font-size: 1.2rem;
+  color: $secondary-color;
+}
+
+.juice-item:hover {
+  transform: scale(1.05);
+}
+// media queries
+@media screen and (max-width: 600px) {
+  .hero-header {
+    font-size: 40px;
+    .hero-header {
+      font-size: 4440px0px40px0px;
+
+      font-size: 40px;
+    }
+
+    .hero-image {
+      width: 10%;
+      display: none;
+    }
+    .hero-about {
+      font-size: 20px;
+    }
+  }
+}
+// Media Queries
+@media screen and (max-width: 601px) {
+  .hero-section {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+
+    .text-content {
+      max-width: 50%;
+      margin-bottom: 200px;
+      .taste {
+        font-size: 60px;
+      }
+      h1 {
+        font-size: 40px;
+      }
+    }
+
+    .image-content {
+      .main-image {
+        max-width: 600px;
+      }
+    }
+  }
+
+  .juice-options {
+    img {
+      width: 150px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 20px;
+    }
+  }
+
+  .hero-about {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .juice-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+
+  .juice-item {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-section {
+    padding: 80px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
