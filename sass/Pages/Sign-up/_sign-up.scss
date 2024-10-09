@@ -54,52 +54,7 @@ button {
 button:hover {
     background-color: $primary-color;
 }
-a {
-    font-size: 0.9em;
-    color: $secondary-color;
-    text-decoration: none;
-}
-a:hover{
-    background-color: $primary-color;
-    display:inline-block;
-        }
 
-        nav{
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-   .nav{
-    @include flex(space-between,center)
-   }
-   ul{
-    @include flex(space-between,center)
-   }
-}
-a{
-    display: inline-block;
-    &:hover{
-        background-color: $primary-color;
-        color: $white;
-    }
-}
-.nav-left{
-.btn{
-.log-in{
-    outline: none;
-    border: none;
-    &:hover{
-        background-color: $primary-color;
-    }
-}
-.sign-up{
-    outline: none;
-    border:none;
-    &:hover{
-        background-color: $primary-color;
-    }
-}
-}
-}
 
 
 /* Media Queries */

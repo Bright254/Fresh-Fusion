@@ -49,21 +49,6 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
-
-button:hover {
-    background-color: $primary-color;
-}
-
-a {
-    color: $secondary-color;
-    text-decoration: none;
-}
-a:hover{
-    background-color: $primary-color;
-    display:inline-block;
-        }
-
-
         /* Media Queries */
         @media (max-width: 800px) {
             .login-container {
