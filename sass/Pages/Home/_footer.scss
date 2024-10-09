@@ -1,13 +1,13 @@
 @use "../../utilities/variables" as *;
 @use "../../utilities/mixins" as *;
-.footer-section{
-    @include flex(space-between,center);
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 20px;
-    @media (max-width: 768px) {
-        flex-direction: column;
-        text-align: center;
-      }
+.footer-section {
+  @include flex(space-between, center);
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+  }
 }
