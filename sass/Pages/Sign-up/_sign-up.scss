@@ -101,8 +101,39 @@ a{
 }
 }
 
+
+/* Media Queries for responsive design */
 @media (max-width: 800px) {
-    p{
-        font-size: 20px;
+    .signup-container {
+        padding: 0 10px; // Increase padding for smaller screens
+    }
+
+    .signup-box {
+        width: 100%; // Use the full width on smaller screens
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em; // Scale down font size for smaller screens
+    }
+
+    input, button {
+        font-size: 0.9em; // Scale form elements for smaller screens
+    }
+}
+
+@media (max-width: 600px) {
+    .signup-container {
+        padding: 0 10px;
+    }
+
+    .signup-box {
+        padding: 15px;
+        width: 100%;
+        max-width: 100%; // Remove max width for very small screens
+    }
+
+    input, button {
+        font-size: 0.9em;
     }
 }

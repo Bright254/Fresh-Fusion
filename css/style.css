@@ -78,22 +78,33 @@
   font-size: 23px;
 }
 
-@media (max-width: 600px) {
-  .hero, h3 {
-    font-size: 30px;
-    padding-top: 200%;
-    margin-left: 45%;
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+    margin: 0;
   }
-  .fruits {
-    gap: 10%;
-    padding-top: 11%;
-    max-width: 100%;
+  .nav ul {
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .hero h3 {
+    font-size: 32px;
+    margin: 0 auto;
+  }
+  .fruits, .juices {
+    flex-direction: column;
+  }
+  .offer {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .hero h3 {
+    font-size: 24px;
   }
   .purchase {
-    border-radius: 10%;
-    height: 90%;
-    width: 120vw;
-    max-width: 100%;
+    width: 100%;
+    font-size: 14px;
   }
 }
 nav {
@@ -137,15 +148,6 @@ a:hover {
   background-color: #4caf50;
 }
 
-@media (max-width: 600px) {
-  nav {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .sidebar {
-    display: none;
-  }
-}
 .login-container {
   display: flex;
   justify-content: center;
@@ -200,7 +202,6 @@ button:hover {
 }
 
 a {
-  font-size: 0.9em;
   color: #ffa500;
   text-decoration: none;
 }
@@ -317,9 +318,33 @@ a:hover {
   background-color: #4caf50;
 }
 
+/* Media Queries for responsive design */
 @media (max-width: 800px) {
-  p {
-    font-size: 20px;
+  .signup-container {
+    padding: 0 10px;
+  }
+  .signup-box {
+    width: 100%;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  input, button {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 600px) {
+  .signup-container {
+    padding: 0 10px;
+  }
+  .signup-box {
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  input, button {
+    font-size: 0.9em;
   }
 }
 nav {
@@ -377,6 +402,32 @@ ul {
   list-style-type: none;
 }
 
+/* Media Queries */
+@media (max-width: 800px) {
+  .signup-container {
+    padding: 10px;
+  }
+  .signup-box {
+    padding: 20px;
+  }
+  p {
+    font-size: 1em;
+  }
+}
+@media (max-width: 600px) {
+  .signup-container {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .signup-box {
+    padding: 15px;
+    width: 100%;
+    max-width: 100%;
+  }
+  input, button {
+    font-size: 0.9em;
+  }
+}
 nav {
   margin-top: 20px;
   margin-left: 100px;
