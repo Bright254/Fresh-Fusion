@@ -60,6 +60,7 @@ a:hover {
 }
 .btn:hover {
   background-color: #4caf50;
+  color: black;
 }
 
 .nav-left {
@@ -138,17 +139,17 @@ a:hover {
   color: #777;
   margin-top: 10px;
 }
-.hero-section .text-content .explore-btn {
+.hero-section .text-content .discover-btn {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
   background-color: #ff6701;
-  color: #fff;
+  color: black;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
 }
-.hero-section .text-content .explore-btn:hover {
+.hero-section .text-content .discover-btn:hover {
   background-color: #4caf50;
 }
 .hero-section .image-content .main-image {
