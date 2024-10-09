@@ -417,32 +417,39 @@ a:hover {
   background-color: #4caf50;
 }
 
-/* Media Queries  */
-@media (max-width: 800px) {
+/* Media Queries */
+@media screen and (max-width: 768px) {
   .signup-container {
-    padding: 0 10px;
-  }
-  .signup-box {
-    width: 100%;
-    padding: 20px;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  input, button {
-    font-size: 0.9em;
-  }
-}
-@media (max-width: 600px) {
-  .signup-container {
-    padding: 0 10px;
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
   }
   .signup-box {
     padding: 15px;
+  }
+  button {
     width: 100%;
-    max-width: 100%;
+  }
+  h2 {
+    font-size: 1.2em;
   }
   input, button {
+    padding: 8px;
+    font-size: 1em;
+  }
+  button {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .signup-box {
+    padding: 10px;
+  }
+  h2 {
+    font-size: 1.1em;
+  }
+  input, button {
+    padding: 6px;
     font-size: 0.9em;
   }
 }
